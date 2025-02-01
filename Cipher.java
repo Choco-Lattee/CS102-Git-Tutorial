@@ -15,7 +15,9 @@ public class Cipher
         // for all chars in the input string
         for (int i = 0; i < inputString.length(); i++)   
         {
-
+            //commit 1
+            //i added there a statement which using replaceChar method to encrypt the text
+            outputString += replaceChar(inputString.charAt(i), false);
         }
 
         return outputString;
